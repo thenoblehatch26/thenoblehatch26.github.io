@@ -1,0 +1,95 @@
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { 
+    box-sizing: border-box; 
+    margin: 0 auto; 
+    background-color: #7f7f7f
+}  
+
+body {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: ______; /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {
+
+}
+header h1 {}
+header img {}
+header .subheading {}
+
+nav {}
+nav button {}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #575750;
+}
+nav ul li {
+    display: inline;
+    float: left;
+}
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+nav ul li.active a {}
+nav ul li a:hover {
+    background-color: #e2d521;
+}
+
+main {
+    text-align: center;
+}
+
+.highlow{
+    padding: 2rem 0 2rem 10rem;
+    text-align: left;
+
+}
+
+.current{
+    padding: 3rem 0 3rem 0;
+}
+.weather-summary{
+    max-width: 500rem;
+    background: yellow;
+}
+
+article{
+    padding: 100px;
+}
+
+.town-article{
+    max-width: 30rem;
+}
+
+
+main h2 {
+    text-align: center;
+    padding-bottom: 2rem
+}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { }
+
+.contact{
+    text-align: center
+}
+
+.footer-bar{
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
