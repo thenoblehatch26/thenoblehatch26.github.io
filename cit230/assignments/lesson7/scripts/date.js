@@ -1,4 +1,3 @@
-function whatDay(){ 
     var n = new Date();
     
     var y = n.getFullYear();
@@ -31,5 +30,4 @@ function whatDay(){
 
     var a = weekday[n.getDay()];
     
-    document.getElementById("currentdate").innerHTML = a + ", " + d + "/" + m + y;  
-}
+    document.getElementById("currentdate").innerHTML = a + ", " + d + "/" + m + "/" + y;  

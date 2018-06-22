@@ -34,9 +34,11 @@ header {}
     padding-left: 0;
 }
 
+/*
 .navigation li {
     display: block;
 }
+*/
 
 
 nav ul.hide {
@@ -53,6 +55,8 @@ header .subheading {}
 nav {}
 
 nav button {}
+
+/*a= anchor, has no chidren*/
 
 nav ul {
     display: flex;

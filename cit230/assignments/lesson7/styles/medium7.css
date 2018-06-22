@@ -2,12 +2,20 @@
 
     /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
     nav ul {
-        display: inline;
+        display: flex;
+        flex-direction: row;
     }
+    nav ul li {
+/*        display: inline;*/
+        min-width: 15%;
+    }
+    
     button.ham {
         display: none;
     }
-
+    nav ul.hide {
+        display: flex;
+    }
     .hamburger {
         display: none;
     }
@@ -17,7 +25,7 @@
         text-align: center;
     }
     .navigation li {
-        display: inline-block;
+/*        display: inline-block;*/
         margin-left: .25rem;
     }
     .navigation a {
@@ -31,8 +39,8 @@
         color: #000;
         background-color: #777;
     }
+    section.forecast {
+        display: block;
+    }
 }
 
-section.forecast {
-    display: block;
-}
