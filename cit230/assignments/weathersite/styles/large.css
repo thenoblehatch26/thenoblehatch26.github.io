@@ -1,0 +1,48 @@
+@media only screen and (min-width: 64em) {
+
+    nav ul {
+        display: block;
+    }
+    button.ham {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    .navigation {
+        background-color: #333;
+        overflow: hidden;
+        text-align: center;
+    }
+    .navigation li {
+        display: inline-block;
+        margin-left: .25rem;
+    }
+    .navigation a {
+        display: block;
+        color: #eee;
+        padding: .5rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navigation a:hover {
+        color: #000;
+        background-color: #777;
+    }
+    section.forecast {
+        display: block;
+    }
+    article h3 {
+        display: flex;
+        word-wrap: normal;
+        font-size: 3rem;
+        max-width: 15rem;
+    }
+
+    .town-article {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 30rem;
+    }
+}

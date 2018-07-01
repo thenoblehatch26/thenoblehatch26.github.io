@@ -1,0 +1,166 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #7f7f7f;
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 1400px;
+}
+
+header {
+    background-color: #5b5b50;
+}
+
+.hamburger {
+    display: block;
+    position: absolute;
+    top: 2.0rem;
+    right: 1.25rem;
+}
+
+.navigation {
+    list-style: none;
+    padding-left: 0;
+}
+
+/*
+.navigation li {
+display: block;
+}
+*/
+
+
+nav ul.hide {
+    display: none;
+}
+
+
+
+header h1 {
+
+}
+
+header img {}
+
+header .subheading {}
+
+nav {}
+
+nav button {}
+
+/*a= anchor, has no chidren*/
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7f7f7f;
+    min-width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    min-width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul li.active a {
+    background-color: darkgreen;
+}
+
+nav ul li a:hover {
+    background-color: yellow;
+}
+
+
+
+main {
+    text-align: center;
+}
+
+.highlow {
+    text-align: center;
+    padding-right: 10rem;
+}
+
+.conditions {
+    padding-top: .2rem;
+    text-align: center;
+    padding-right: 10rem
+}
+
+.current {
+    padding: 3rem 0 3rem 0;
+}
+
+.weather-summary {
+    max-width: 100%;
+    background: #5b5b50;
+}
+
+section.forecast {
+    display: none;
+}
+
+article {
+    display:grid;
+    grid-auto-flow: column;
+}
+
+main h2 {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+main figure {
+    margin: 0 0 .2rem 2%;
+    width: 96%;
+}
+
+.town-article{
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+main figure img {}
+
+.contact {
+    text-align: center;
+}
+
+.footer-bar {
+    padding: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+.footer-bar, .contact, #currentdate {
+    background-color: #5b5b50;
+}
+
+footer {
+    display: grid;
+    margin-top: 1rem;
+    width: 100%;
+    grid-column-start: span 2;
+    background-color: #5b5b50;
+}

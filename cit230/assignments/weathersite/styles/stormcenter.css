@@ -1,0 +1,104 @@
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7f7f7f;
+    min-width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    min-width: 100%;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul li.active a {
+    background-color: darkgreen;
+}
+
+nav ul li a:hover {
+    background-color: yellow;
+}
+
+body {
+    line-height: 1.5em;
+    background-color: #7f7f7f;
+}
+
+h2 {
+    margin-left: 20px;
+    border-bottom: 1px solid #777;
+    font-size: 1.2em;
+    color: #3377bb;
+}
+
+.ablock {
+    margin-left: 30px;
+}
+
+.tight input {
+    margin: -10px 0px;
+}
+
+input {
+    margin: 5px 20px;
+    font-size: .8em;
+    color: #3377bb;
+    padding: .5rem;
+}
+
+label {
+    width: 400px;
+    text-align: right;
+}
+
+fieldset {
+    margin-bottom: 15px;
+    background-color: #eee;
+}
+
+legend {
+    color: #3377bb
+}
+
+@media only screen and (min-width: 64em) {
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+    button.ham {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+    .navigation {
+        background-color: #333;
+        overflow: hidden;
+        text-align: center;
+    }
+    .navigation li {
+        display: inline-block;
+        margin-left: .25rem;
+    }
+    .navigation a {
+        display: block;
+        color: #eee;
+        padding: .5rem;
+        text-align: center;
+        text-decoration: none;
+    }
+    .navigation a:hover {
+        color: #000;
+        background-color: #777;
+    }

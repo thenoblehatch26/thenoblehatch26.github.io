@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/cit230/assignments/weathersite/styles/stormcenter.css">
+</head>
+
+
+
+<body>
+    <header includefile="header.html"></header>
+
+   
+    <h2>Storm Center</h2>
+    <nav>
+        <ul id="navigation" class="hide">
+            <li><a href="/cit230/assignments/weathersite/homepage.html">Home</a></li>
+            <li><a href="/cit230/assignments/weathersite/franklin.html">Franklin</a></li>
+            <li><a href="/cit230/assignments/weathersite/greenville.html">Greenville</a></li>
+            <li><a href="/cit230/assignments/weathersite/springfield.html">Springfield</a></li>
+            <li><a href="/cit230/assignments/weathersite/stormcenter.html">Storm Center</a></li>
+            <li><a href="/cit230/assignments/weathersite/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <div class="centre">
+    <table>
+        <tbody> 
+          <tr>
+           <td><label for="fname">First Name: </label>
+               <input type="text" name="fname" required oninvalid="this.setCustomValidity('Please Enter Your First Name')"></td><br>
+              <td><label for="lastname">Last Name: </label>
+            <input type="text" name="lastname" required oninvalid="this.setCustomValidity('Please Enter Your Last Name')"
+                   oninput="setCustomValidity('')"></td><br>
+              <td><label for="num">Number: </label>
+                  <input type="number" name="num" required step=".5"></td><br>
+              <td><label for="p">Phone: </label>
+                  <input type="tel" name="p" required placeholder="###-###-####"></td><br>
+              <td><label for="email">eMail: </label>
+                  <input type="email" name="email" required></td><br>
+              <td><label for="z">ZIP Code:  </label>
+                  <input type="zip" name="z" value="33333"></td><br>
+            </tr> 
+         </tbody>
+    </table>
+           
+            <div>
+                <input type="submit">
+            </div>
+
+    </div>
+    <script type="text/javascript" src="scripts/include.js"></script>
+    <script type="text/javascript" src="scripts/modularize.js"></script>
+    <script type="text/javascript" src="scripts/w3.js"></script>
+    <script type="text/javascript" src="scripts/toggleham.js"></script>
+    <script type="text/javascript" src="scripts/date.js"></script>
+</body>
+</html>
