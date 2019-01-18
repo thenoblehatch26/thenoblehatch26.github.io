@@ -12,34 +12,41 @@ body {
 }
 
 h1 {
-    font-size: 5rem;
-    color: black;
+    font-size: 3rem;
+    color: rgb(22, 21, 21);
+    padding-bottom: .5rem
 }
 
 h2 {
-    font-size: 5rem;
+    font-size: 2rem;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
 
 header, main, footer {
     margin: 1.25rem auto;
-    padding: .5rem;
+    padding: 1rem;
     max-width: 999px ;
 }
 
 header, footer, footer a {
-    text-align: center;
-    background-color: #bbb;
+    text-align: left;
+    background-color: rgb(16, 102, 189);
     color: whitesmoke;
 }
 
 header img {
-    width: auto;
-    height: auto;
+    width: 25%;
     float: right;
+    border-radius: 50%;
+   /* border-color: deeppink;
+    border: 5rem; */
 }
 
 footer {
-    font-size: 16pt;
+    font-size: 10pt;
+}
+
+main {
+
 }
