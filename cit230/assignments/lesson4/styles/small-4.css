@@ -9,7 +9,12 @@ div{
 
 ul {
     list-style: none;
-    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;  
+    width: 100px;
+    height: 100px;
 }
 
 .color-primary-0 { color: #56BE00 }	/* Main Primary color */
