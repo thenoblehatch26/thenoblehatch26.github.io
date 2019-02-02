@@ -1,5 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
+    width: 75%;
+    text-align: center;
 }
 
 div{
@@ -11,10 +13,26 @@ ul {
     list-style: none;
 }
 
-.nav li {
-    display: inline-block;  
-    width: 100px;
-    height: 100px;
+.logo {
+    color: #357600;
+}
+
+nav ul li a:hover {
+    background-color: #AD34AD;
+}
+
+.contact {
+    background-color: #357600;
+    color: #ffffff;
+}
+
+nav li {
+    /*display: inline-block;*/  
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #8B008B;
 }
 
 .color-primary-0 { color: #56BE00 }	/* Main Primary color */
