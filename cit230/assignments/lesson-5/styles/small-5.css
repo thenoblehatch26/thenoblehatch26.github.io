@@ -1,7 +1,22 @@
+@media screen and (max-width: 500px){
+
+    .forecast{
+        display: none;
+    }
+
+}
+
+
+/* rest of the elementssssssss///////////////////////////////////////////////////////////////////// */
+
+
 * {
     font-family: 'Roboto', sans-serif;
-    width: 75%;
     text-align: center;
+}
+
+.map{
+    float: left;
 }
 
 div{
