@@ -3,7 +3,14 @@
     .forecast{
         display: none;
     }
-
+    nav li {
+        /*display: inline-block;*/  
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        overflow: hidden;
+        background-color: #8B008B;
+    }
 }
 
 
@@ -15,8 +22,18 @@
     text-align: center;
 }
 
+section, article{
+    width: 65%;
+}
+
+header{
+    background-color: #357600;
+}
+
 .map{
-    float: left;
+    display: inline-block;
+ /*   float: left;*/
+    margin: 0 auto;
 }
 
 div{
@@ -26,28 +43,45 @@ div{
 
 ul {
     list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #8B008B;
 }
 
 .logo {
-    color: #357600;
+    color: white;
 }
 
-nav ul li a:hover {
+table, tr,td{
+    border: solid 1px black;
+}
+
+nav ul li:hover {
     background-color: #AD34AD;
+}
+
+nav ul li:active {
+    background-color: #560056;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 .contact {
     background-color: #357600;
     color: #ffffff;
+    margin: 0 auto;
 }
 
 nav li {
     /*display: inline-block;*/  
-    width: 100%;
     height: 25px;
-    text-align: center;
     overflow: hidden;
     background-color: #8B008B;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 
 .color-primary-0 { color: #56BE00 }	/* Main Primary color */

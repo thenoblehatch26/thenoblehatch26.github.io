@@ -4,5 +4,18 @@
     display: none;
 }
 
+li {
+    float: left;
+}
+
+.forecast{
+    display: inline-block;
+}
+
+ul{
+    display: inline-block;
+    width: 100%;
+    
+}
 
 }
