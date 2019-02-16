@@ -12,10 +12,14 @@ li {
     display: inline-block;
 }
 
-ul.hide{
+ul{
     display: inline-block;
     width: 100%;
     
+}
+
+button{
+    display: none;
 }
 
 }
