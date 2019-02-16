@@ -52,6 +52,13 @@ ul {
     color: white;
 }
 
+nav ul.hide{
+    display: none;
+}
+picture img{
+    width: 50%;
+}
+
 table, tr,td{
     border: solid 1px black;
 }

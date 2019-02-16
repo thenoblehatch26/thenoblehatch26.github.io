@@ -18,9 +18,9 @@
         <h1 class="logo">SunnyMinds!</h1>
         <div class="motto">Get your sun in!</div>
         <nav class="line">
-        <h1>Preston!</h1>            
-        <span class = menu>&equiv; Menu</span>
-            <ul>
+        <h1>Preston!</h1>          
+        <button onclick="hamburger()">&equiv;</button>
+            <ul id="primaryNav" class="hide"> 
                 <li><a href="#">Home</a></li>
                 <li><a href="/cit230/assignments/lesson-6/preston-6.html">Preston</a></li>
                 <li><a href="#">Soda Springs</a></li>
@@ -69,8 +69,13 @@
                     </table>
                 </section>
                 <article>
-                        <h3>Franklin Breaks Record</h3>	
-                        <img src="/cit230/images/basicpage.jpg" alt="newpapa" height="200px" width="200px">
+                        <h3>Franklinit Breaks Record</h3>	
+                       <!-- <img src="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io-1\cit230\assignments\lesson-6\images\landscapelarge.jpg" alt="newpapa">-->
+                       <picture class="foto">
+                            <source srcset="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io-1\cit230\assignments\lesson-6\images\landscapesmall.jpg" media="(max-width: 500px)">
+                            <source srcset="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io-1\cit230\assignments\lesson-6\images\landscapelarge.jpg">
+                            <img src="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io-1\cit230\assignments\lesson-6\images\landscapelarge.jpg" alt="Flowers">
+                          </picture>
                         <p class="town-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio diam, placerat ut pretium vitae, imperdiet vel lorem. Nunc quis odio a risus efficitur posuere in pharetra ligula. Vivamus tellus dui, dictum et maximus id, viverra a risus. Nulla accumsan, odio a tempor pretium, elit augue accumsan enim, nec imperdiet justo erat id mi. Sed molestie gravida dui, at suscipit erat rhoncus nec. Morbi sed tincidunt arcu. In vitae mi quis urna pharetra ultrices eget pretium tortor. Fusce scelerisque turpis nibh, quis posuere sem rutrum nec.</p>
                 </article>
                 <div class="map">
@@ -85,9 +90,10 @@
                 123 Main St. Anytown, US 99999
                 Google Map
             </section>
-            <section class="footer-bar">&copy;<span id='copyright-year'></span> | All Rights Reserved | Site Title | <span id="currentdate">Current Date Placeholder</span>
+            <section class="footer-bar">&copy;<span id='copyright-year'></span> | All Rights Reserved | Site Title | <span id="currentdate"></span>
             </section>
     </footer>
     <script src = "scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
 </body>
 </html>

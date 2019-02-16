@@ -3,7 +3,6 @@
 
 var date = new Date();
 document.getElementById('copyright-year').innerHTML = date.getFullYear();
-
 // day
 var today = new Date();  
 
@@ -35,6 +34,9 @@ var currentMonth = new Date();
   month[10] = "November";
   month[11] = "December";
 
-  var monthName = month[currentMonth.getmonth()];
+  var monthName = month[currentMonth.getMonth()];
 
-  var fullDate = weekday + ', ' + today.getDate() + ', ' + monthName + ', ' + getFullYear;
+var fullYear = today.getFullYear();
+
+  var fullDate = dayOfWeek + ', ' + today.getDate() + ', ' + monthName + ', ' + fullYear;
+  document.write(fullDate);

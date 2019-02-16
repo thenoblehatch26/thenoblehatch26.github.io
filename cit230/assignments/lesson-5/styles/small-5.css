@@ -11,6 +11,7 @@
         overflow: hidden;
         background-color: #8B008B;
     }
+    
 }
 
 
@@ -20,6 +21,10 @@
 * {
     font-family: 'Roboto', sans-serif;
     text-align: center;
+}
+
+nav ul.hide{
+    display: none;
 }
 
 section, article{
@@ -85,6 +90,8 @@ nav li {
     padding-top: 5px;
     padding-bottom: 2.5px;
 }
+
+
 
 .color-primary-0 { color: #56BE00 }	/* Main Primary color */
 .color-primary-1 { color: #8DE544 }
