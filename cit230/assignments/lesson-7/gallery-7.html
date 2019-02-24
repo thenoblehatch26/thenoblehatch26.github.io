@@ -1,0 +1,83 @@
+<!-- remember to use fixed element for the top menu look at "getting started w/css" video -->
+<!-- breakpoints for different css media queries 300-600 phones 500-800 tablet 800-1500 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Preston ID</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small-7.css">
+    <link rel="stylesheet" href="styles/large-7.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">SunnyMinds!</h1>
+        <div class="motto">Get your sun in!</div>
+        <nav class="line">
+            <section>
+                <span>Temp:</span><span id = "temp"></span>
+            </section>
+        <h1>Preston!</h1>          
+        <button onclick="hamburger()">&equiv;</button>
+            <ul id="primaryNav" class="hide"> 
+                <li><a href="#">Home</a></li>
+                <li><a href="/cit230/assignments/lesson-7/preston-7.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="/cit230/assignments/lesson-7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <p></p>
+
+    </header>
+    <main>
+        <section class="grid">
+            <figure class="hover">
+                <img src="cit230\assignments\lesson-7\images\agriculture-bright-clouds-440731.jpg" alt="agriculture">
+                <figcaption>Image 1</figcaption>  
+            </figure>
+            <figure class="hover">
+                <img src="cit230\assignments\lesson-7\images\astronomy-beautiful-clouds-355465.jpg" alt="astronomy">
+                <figcaption>Image 2</figcaption>  
+            </figure>
+            <figure class="hover">
+                <img src="cit230\assignments\lesson-7\images\background-calm-clouds-747964.jpg" alt="background">
+                <figcaption>Image 3</figcaption>  
+            </figure>
+            <figure class="hover">
+                <img src="cit230\assignments\lesson-7\images\beautiful-daylight-environment-709552.jpg" alt="beautiful">
+                <figcaption>Image 4</figcaption>  
+            </figure>
+            <figure class="hover">
+                <img src="cit230\assignments\lesson-7\images\clouds-country-daylight-371633.jpg" alt="clouds">
+                <figcaption>Image 5</figcaption>  
+            </figure>
+            <figure class="hover">
+                <img src="cit230\assignments\lesson-7\images\adventure-calm-clouds-414171.jpg" alt="adventure">
+                <figcaption>Image 6</figcaption>  
+            </figure>        
+        </section>
+
+       	
+    </main>
+    <footer>
+        
+            <section class="contact">
+                Contact information placeholder
+                999.999.9999
+                123 Main St. Anytown, US 99999
+                Google Map
+            </section>
+            <section class="footer-bar">&copy;<span id='copyright-year'></span> | All Rights Reserved | Site Title | <span id="currentdate"></span>
+            </section>
+    </footer>
+    <script src="scripts/windchill.js"></script>
+    <script src = "scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>
