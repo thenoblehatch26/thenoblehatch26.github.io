@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small-8.css">
+    <link rel="stylesheet" href="styles/medium-8.css">
+    <link rel="stylesheet" href="styles/large-8.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">SunnyMinds!</h1>
+        <div class="motto">Get your sun in!</div>
+        <nav class="line">
+            <section>
+                <span>Temp:</span><span id = "temp"></span>
+            </section>
+        <h1>Preston!</h1>          
+        <button onclick="hamburger()">&equiv;</button>
+            <ul id="primaryNav" class="hide"> 
+                <li><a href="#">Home</a></li>
+                <li><a href="/cit230/assignments/lesson-8/preston-8.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="/cit230/assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+                <li><a href="/cit230/assignments/lesson-8/gallery-8.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <p></p>
+
+    </header>
+    <main>
+<form action="thanks.html" method="GET">
+    <div>
+    <label for="">Full Name:</label>
+    <input type="text" id="fullName">
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="User@domain.com" required>
+    </div>
+    <div>
+        <label for="phoneNumber"></label>
+        <input type="tel" name="phoneNumber" id="phoneNumber" required>
+    </div>
+    <div>
+        <label for="zipCode">zipCode:</label>
+        <input type="number" id="zipCode" name="zipCode" required>
+    </div>
+    <div>
+        <label for="stormDate">Date: </label>
+        <input type="date" name="stormDate" id="stormDate">
+    </div>
+    <div>
+        <input type="submit" value="Report">
+    </div>
+</form>
+    </main>
+    <footer>
+        
+        <section class="contact">
+            Contact information placeholder
+            999.999.9999
+            123 Main St. Anytown, US 99999
+            Google Map
+        </section>
+        <section class="footer-bar">&copy;<span id='copyright-year'></span> | All Rights Reserved | Site Title | <span id="currentdate"></span>
+        </section>
+</footer>
+<script src="scripts/windchill.js"></script>
+<script src = "scripts/currentdate.js"></script>
+<script src="scripts/hamburger.js"></script>
+</body>
+</html>
