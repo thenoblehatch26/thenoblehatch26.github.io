@@ -39,4 +39,4 @@ var currentMonth = new Date();
 var fullYear = today.getFullYear();
 
   var fullDate = dayOfWeek + ', ' + today.getDate() + ', ' + monthName + ', ' + fullYear;
-  document.write(fullDate);
+  document.getElementById('currentdate').innerHTML = fullDate;

@@ -2,6 +2,7 @@
 <!-- breakpoints for different css media queries 300-600 phones 500-800 tablet 800-1500 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -10,100 +11,118 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Preston ID</title>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small-9.css">
-    <link rel="stylesheet" href="styles/large-9.css">
+    <link rel="stylesheet" href="styles/small-final.css">
+    <link rel="stylesheet" href="styles/medium-final.css">
+    <link rel="stylesheet" href="styles/large-final.css">
 </head>
+
 <body>
     <header>
-        <h1 class="logo">SunnyMinds!</h1>
-        <div class="motto">Get your sun in!</div>
-        <h1>Preston!</h1> 
-        <nav class="line">         
-        <button onclick="hamburger()">&equiv;</button>
-            <ul id="primaryNav" class="hide"> 
-                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\lesson-9\home.html">Home</a></li>
-                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\lesson-9\preston-9.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\lesson-9\stormcenter.html">Storm Center</a></li>
-                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\lesson-9\gallery-9.html">Gallery</a></li>
+        <div class="motto">
+            <h1 class="logo">SunnyMinds!</h1>
+            <p>Get your sun in!</p>
+        </div>
+        <h1 class="pagename">Preston!</h1>
+        <nav class="line">
+            <button onclick="hamburger()">&equiv;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\home.html">Home</a>
+                </li>
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\preston-final.html" class="active">Preston</a>
+                </li>
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\soda-springs.html">Soda
+                        Springs</a></li>
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\fish-haven.html">Fish
+                        Haven</a></li>
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\stormcenter.html">Storm
+                        Center</a></li>
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\gallery-final.html">Gallery</a>
+                </li>
             </ul>
         </nav>
-        <p></p>
 
     </header>
     <main>
-        <div id = "weatherSummary">
-            <div>
-            <span>Temp:</span><span id = "temp"></span>
+        <div class="totalweather">
+            <div><h2>Current Weather</h2></div>
+            <div class="forecast"><h2>Five Day Forecast</h2></div>
+            <div id="weatherSummary">
+                <div>
+                    <span>Temp:</span><span id="currenttemp"></span><span>&deg;F</span>
+                </div>
+                <div>
+                    <span>Wind Chill:</span><span id="windChill"></span><span>&deg;F</span>
+                </div>
+                <div>
+                    <span>Wind Speed:</span><span id="windSpeed"></span><span> MPH</span>
+                </div>
             </div>
-            <div>
-            <span>Temp:</span><span id = "windChill"></span>
-            </div>
-            <div>
-            <span>Temp:</span><span id = "windSpeed"></span>
-            </div>
-        </div>
-
             <section class="forecast">
-                    <h3>Ten Day Forecast</h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Day 1</th>
-                                <th>Day 2</th>
-                                <th>Day 3</th>
-                                <th>Day 4</th>
-                                <th>Day 5</th>
-                                <th>Day 6</th>
-                                <th>Day 7</th>
-                                <th>Day 8</th>
-                                <th>Day 9</th>
-                                <th>Day 10</th>
-                            </tr>
-                        </thead>
-                        <tbody>  
-                            <tr>
-                                <td>89&deg;F</td>
-                                <td>87&deg;F</td>
-                                <td>78&deg;F</td>
-                                <td>75&deg;F</td>
-                                <td>72&deg;F</td>
-                                <td>72&deg;F</td>
-                                <td>79&deg;F</td>
-                                <td>83&deg;F</td>
-                                <td>85&deg;F</td>
-                                <td>89&deg;F</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-                <article>
-                        <h3>Franklinit Breaks Record</h3>	
-                       <!-- <img src="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io-1\cit230\assignments\lesson-6\images\landscapelarge.jpg" alt="newpapa">-->
-                       <picture class="foto">
-                            <source srcset="\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\lesson-9\images\landscapesmall.jpg" media="(max-width: 500px)">
-                            <img src="\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\lesson-9\images\landscapelarge.jpg" alt="Flowers">
-                          </picture>
-                        <p class="town-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio diam, placerat ut pretium vitae, imperdiet vel lorem. Nunc quis odio a risus efficitur posuere in pharetra ligula. Vivamus tellus dui, dictum et maximus id, viverra a risus. Nulla accumsan, odio a tempor pretium, elit augue accumsan enim, nec imperdiet justo erat id mi. Sed molestie gravida dui, at suscipit erat rhoncus nec. Morbi sed tincidunt arcu. In vitae mi quis urna pharetra ultrices eget pretium tortor. Fusce scelerisque turpis nibh, quis posuere sem rutrum nec.</p>
-                </article>
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628256041!2d-111.91534455822121!3d42.09980531200503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1549480032768" width="100%" margin= "5px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>	
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span id="day1"></span>&deg;F</td>
+                            <td><span id="day2"></span>&deg;F</td>
+                            <td><span id="day3"></span>&deg;F</td>
+                            <td><span id="day4"></span>&deg;F</td>
+                            <td><span id="day5"></span>&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <article>
+            <h3 class='toptitle'>Preston, Get your sun in!</h3>
+            <picture class="foto">
+                <source
+                    srcset="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\images\preston.jpg"
+                    media="(max-width: 500px)">
+                <img src="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\images\preston2.jpg"
+                    alt="Flowers">
+            </picture>
+            <p class="town-article">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla odio diam, placerat
+                ut pretium vitae, imperdiet vel lorem. Nunc quis odio a risus efficitur posuere in pharetra ligula.
+                Vivamus tellus dui, dictum et maximus id, viverra a risus. Nulla accumsan, odio a tempor pretium, elit
+                augue accumsan enim, nec imperdiet justo erat id mi. Sed molestie gravida dui, at suscipit erat rhoncus
+                nec. Morbi sed tincidunt arcu. In vitae mi quis urna pharetra ultrices eget pretium tortor. Fusce
+                scelerisque turpis nibh, quis posuere sem rutrum nec.</p>
+        </article>
+        <div class="bottom-grid">
+            <section class="contact">
+                <p>Chandler Noble Hatch</p>
+                <p>999-999-9999</p>
+                <p>123 Main St. Anytown, US 99999</p>
+            </section>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628256041!2d-111.91534455822121!3d42.09980531200503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1549480032768"
+                width="100%" margin="5px" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
     </main>
     <footer>
-        
-            <section class="contact">
-                Contact information placeholder
-                999.999.9999
-                123 Main St. Anytown, US 99999
-                Google Map
-            </section>
-            <section class="footer-bar">&copy;<span id='copyright-year'></span> | All Rights Reserved | Site Title | <span id="currentdate"></span>
-            </section>
+
+
+        <section class="footer-bar">&copy;<span id='copyright-year'></span> | All Rights Reserved | Site Title | <span
+                id="currentdate"></span>
+        </section>
     </footer>
-    <script src="scripts/windchill.js"></script>
-    <script src = "scripts/currentdate.js"></script>
+    <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/preston.js"></script>
 </body>
+
 </html>

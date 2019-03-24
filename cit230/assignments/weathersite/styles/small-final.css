@@ -1,0 +1,288 @@
+@media screen and (max-width: 500px) {
+
+    .forecast {
+        display: none;
+    }
+
+    nav li {
+        display: flex;
+        width: 100%;
+        height: 25px;
+        text-align: center;
+        overflow: hidden;
+        background-color: #8B008B;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .totalweather{
+        display: grid;
+        grid-auto-columns: 50% 50%; 
+        margin: 2%;
+
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+  
+    article{
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }  
+}
+
+
+/* rest of the elementssssssss///////////////////////////////////////////////////////////////////// */
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: darkgray;
+    display: grid;
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+label {
+    min-width: 150px;
+    display: flex;
+}
+
+.pagename{
+    display: flex;
+    justify-content: center;
+}
+
+form div {
+    margin: 5px;
+}
+
+.active{
+    background-color: #72E315;
+}
+
+section,
+article {
+    width: 100%;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+.toptitle{
+    grid-column: col-start / 1;
+    padding-top: 0%;
+    margin-top: 0%;
+}
+
+article{
+    display: grid;
+    background-color: #469B00;
+    border-radius: 15px;
+    padding: 3%;
+}
+
+.town-article{
+    padding-left: 5%;
+    padding-right: 2%;
+    text-align: left;
+}
+
+header {
+    background-color: #357600;
+}
+
+#weatherSummary{
+    border: solid 1px black;
+    background-color: #469B00;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+.totalweather{
+    display: grid;
+    margin: 5%;
+    padding: 2%;
+    background-color: #8B008B;
+    border-radius: 15px;
+    width: 90%;
+    justify-content: center;
+}
+
+.totalweather h2, .totalweather section{
+    justify-content: center;
+    text-align: center;
+}
+
+
+.bottom-grid {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 33% 27%;
+    justify-content: space-around;
+    background-color: #8B008B;
+    border-radius: 15px;
+    margin-top: 2%;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #357600;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 3%;
+}
+
+iframe,
+.contact {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+}
+
+
+
+.motto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: yellow;
+    font-family: 'Sarabun', sans-serif;
+}
+
+.motto h1, .motto p{
+    margin-bottom: 0px; 
+    margin-top: 0px;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #8B008B;
+}
+
+.logo {
+    color: white;
+}
+
+picture img {
+    width: 100%;
+}
+
+table,
+tr,
+td {
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: #469B00;  
+    padding: 2.5%;
+    padding-right: 4%;
+}
+
+nav ul li:hover {
+    background-color: #AD34AD;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    /*display: inline-block;*/
+    height: 30px;
+    overflow: hidden;
+    background-color: #8B008B;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-top: 5px;
+    padding-bottom: 2.5px;
+}
+
+
+.footer-bar{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.color-primary-0 {
+    color: #56BE00
+}
+
+/* Main Primary color */
+.color-primary-1 {
+    color: #8DE544
+}
+
+.color-primary-2 {
+    color: #72E315
+}
+
+.color-primary-3 {
+    color: #469B00
+}
+
+.color-primary-4 {
+    color: #357600
+}
+
+.color-secondary-1-0 {
+    color: #D53D00
+}
+
+/* Main Secondary color (1) */
+.color-secondary-1-1 {
+    color: #FF7F4C
+}
+
+.color-secondary-1-2 {
+    color: #FE5918
+}
+
+.color-secondary-1-3 {
+    color: #AE3200
+}
+
+.color-secondary-1-4 {
+    color: #842600
+}
+
+.color-secondary-2-0 {
+    color: #8B008B
+}
+
+/* Main Secondary color (2) */
+.color-secondary-2-1 {
+    color: #AD34AD
+}
+
+.color-secondary-2-2 {
+    color: #A510A5
+}
+
+.color-secondary-2-3 {
+    color: #710071
+}
+
+.color-secondary-2-4 {
+    color: #560056
+}

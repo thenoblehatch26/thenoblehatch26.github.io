@@ -10,7 +10,7 @@ li {
 }
 
 .forecast{
-    display: inline-block;
+    display: flex;
 }
 
 ul{
@@ -18,6 +18,14 @@ ul{
     justify-content: space-evenly;
     width: 100%;
     
+}
+
+article{
+    grid-template-columns: 65% 35%;
+}
+
+.totalweather{
+grid-template-columns: 30% 70%;
 }
 
 nav{
