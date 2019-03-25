@@ -1,0 +1,44 @@
+[   
+    {
+    "name": "Rexburg Idaho Temple",
+    "location": "",
+    "dedicated": "",
+    "closures":   
+        [
+        {
+            "startdate": "",
+            "enddate": ""
+        },
+        {
+            "startdate": "",
+            "enddate": ""    
+        }
+        ],
+    "services": 
+        [
+        {
+            "name": "" 
+        },
+        {
+            "name": "" 
+        }
+        ]
+
+    },
+    {
+    "name": "",
+    "location": "",
+    "dedicated": "",
+    "closures": 
+        [
+        {
+            "startdate": "",
+            "enddate": ""
+        },
+        {
+            "startdate": "",
+            "enddate": ""    
+        }
+        ]
+    }
+]
