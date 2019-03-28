@@ -1,44 +1,184 @@
 [   
     {
     "name": "Rexburg Idaho Temple",
-    "location": "",
-    "dedicated": "",
+    "location": "750 2nd East Rexburg ID 83440",
+    "dedicated": "Feb 10, 2008",
     "closures":   
         [
         {
-            "startdate": "",
-            "enddate": ""
+            "startdate": "April 6, 2019"
         },
         {
-            "startdate": "",
-            "enddate": ""    
+            "startdate": "April 15, 2019",
+            "enddate": "April 29, 2019"    
+        },
+        {
+            "startdate": "July 4, 2019"
+        },
+        {
+            "startdate": "July 27, 2019"
+        },
+        {
+            "startdate": "September 2, 2019",
+            "enddate": "September 16, 2019"
+        },
+        {
+            "startdate": "October 5, 2019"
+        },
+        {
+            "startdate": "November 27, 2019",
+            "enddate": "November 28, 2019"
+        },
+        {
+            "startdate": "December 24, 2019",
+            "enddate": "December 25, 2019"    
+        },
+        {
+            "startdate": "December 31, 2019",
+            "enddate": "January 1, 2020"
         }
         ],
     "services": 
         [
         {
-            "name": "" 
+            "name": "Clothing rental" 
         },
         {
-            "name": "" 
+            "name": "Distribution center nearby" 
         }
         ]
 
     },
     {
-    "name": "",
-    "location": "",
-    "dedicated": "",
+    "name": "Logan Utah Temple",
+    "location": "175 N 300 E Logan UT 84321",
+    "dedicated": "May 17, 1884",
+    "rededicated": "March 13, 1979",
     "closures": 
         [
         {
-            "startdate": "",
-            "enddate": ""
+            "startdate": "April 6, 2019"
         },
         {
-            "startdate": "",
-            "enddate": ""    
+            "startdate": "July 4, 2019"
+        },
+        {
+            "startdate": "July 22, 2019",
+            "enddate": "August 5, 2019"
+        },
+        {
+            "startdate": "October 5, 2019"
+        },
+        {
+            "startdate": "November 27, 2019"
+        },
+        {
+            "startdate": "November 28, 2019"
+        },
+        {
+            "startdate": "December 24, 2019"
+        },
+        {
+            "startdate": "December 25, 2019"
+        },
+        {
+            "startdate": "December 31, 2019"
         }
-        ]
-    }
+        ],
+        "services": 
+            [
+            {
+                "name": "Clothing Rental" 
+            },
+            {
+                "name": "Cafeteria" 
+            }
+            ]
+    },
+    {
+        "name": "Boston Massachusetts Temple",
+        "location": "100 Hinckley Way Belmont MA 02478",
+        "dedicated": "October 1, 2000",
+        "closures": 
+            [
+            {
+                "startdate": "April 6, 2019"
+            },
+            {
+                "startdate": "July 4, 2019"
+            },
+            {
+                "startdate": "July 8, 2019",
+                "enddate": "July 22, 2019"
+            },
+            {
+                "startdate": "October 5, 2019"
+            },
+            {
+                "startdate": "November 27, 2019"
+            },
+            {
+                "startdate": "November 28, 2019"
+            },
+            {
+                "startdate": "December 24, 2019"
+            },
+            {
+                "startdate": "December 25, 2019"
+            },
+            {
+                "startdate": "December 31, 2019"
+            }
+            ],
+            "services": 
+            [
+            {
+                "name": "Clothing Rental" 
+            },
+            {
+                "name": "Distribution Center Nearby" 
+            }
+            ]
+    },
+    {
+        "name": "Seattle Washington Temple",
+        "location": "2808 148th Ave SE",
+        "dedicated": "November 17, 1980",
+        "closures": 
+            [
+                {
+                    "startdate": "April 6, 2019"
+                },
+                {
+                    "startdate": "July 4, 2019"
+                },
+                {
+                    "startdate": "July 22, 2019",
+                    "enddate": "August 5, 2019"
+                },
+                {
+                    "startdate": "October 5, 2019"
+                },
+                {
+                    "startdate": "November 27, 2019",
+                    "enddate": "November 28, 2019"
+                },
+                {
+                    "startdate": "December 24, 2019",
+                    "enddate": "December 25, 2019"
+                }
+            ],
+            "services": 
+            [
+            {
+                "name": "Clothing Rental" 
+            },
+            {
+                "name": "Cafeteria" 
+            },
+            {
+                "name": "Distribution Center Nearby"
+            }
+            ]
+    }    
 ]

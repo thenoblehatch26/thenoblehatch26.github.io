@@ -37,12 +37,12 @@ button{
     display: none;
 }
 
-.grid{
+.grid, #home-grid{
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.hover:hover{
-    background-color: yellow;
-}
+
+
 
 }

@@ -2,6 +2,7 @@
 <!-- breakpoints for different css media queries 300-600 phones 500-800 tablet 800-1500 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -9,63 +10,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Preston ID</title>
-    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small-final.css">
     <link rel="stylesheet" href="styles/medium-final.css">
     <link rel="stylesheet" href="styles/large-final.css">
 </head>
+
 <body>
     <header>
-        <h1 class="logo">SunnyMinds!</h1>
-        <div class="motto">Get your sun in!</div>
-        <h1>Preston!</h1> 
-        <nav class="line">         
-        <button onclick="hamburger()">&equiv;</button>
-            <ul id="primaryNav" class="hide"> 
-                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\home.html" class="active">Home</a></li>
-                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\preston-final.html">Preston</a></li>
-                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\soda-springs.html">Soda Springs</a></li>
-                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\fish-haven.html">Fish Haven</a></li>
-                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\stormcenter.html">Storm Center</a></li>
-                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\gallery-final.html">Gallery</a></li>
+        <div class="motto">
+            <h1 class="logo">SunnyMinds!</h1>
+            <p>Get your sun in!</p>
+        </div>
+        <h1 class="pagename">Preston!</h1>
+        <nav class="line">
+            <button onclick="hamburger()">&equiv;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\home.html">Home</a>
+                </li>
+                <li><a href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\preston-final.html"
+                        class="active">Preston</a>
+                </li>
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\soda-springs.html">Soda
+                        Springs</a></li>
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\fish-haven.html">Fish
+                        Haven</a></li>
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\stormcenter.html">Storm
+                        Center</a></li>
+                <li><a
+                        href="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\gallery-final.html">Gallery</a>
+                </li>
             </ul>
         </nav>
-        <p></p>
-
     </header>
     <main>
-        <section>
-        <div id="high">
+        <section id="home-grid">
+            <div id="preston">
+                <h1>Preston</h1>
+                <div id="weatherSummary">
+                    <div>
+                        <span>Temp:</span><span id="preston-currenttemp"></span><span>&deg;F</span>
+                    </div>
+                    <div>
+                        <span>Wind Speed:</span><span id="preston-windSpeed"></span><span> MPH</span>
+                    </div>
+                    <div>
+                        <span>Wind Chill:</span><span id="preston-windChill"></span><span>&deg;F</span>
 
+                    </div>
+                </div>
+            </div>
+            <div id="soda-springs">
+                <h1>Soda Springs</h1>
+                <div id="weatherSummary">
+                    <div>
+                        <span>Temp:</span><span id="sodasprings-currenttemp"></span><span>&deg;F</span>
+                    </div>
+                    <div>
+                        <span>Wind Speed:</span><span id="sodasprings-windSpeed"></span><span> MPH</span>
+                    </div>
+                    <div>
+                        <span>Wind Chill:</span><span id="sodasprings-windChill"></span><span>&deg;F</span>
+                    </div>
+                </div>
+            </div>
+            <div id="fish-haven">
+                <h1>Fish Haven</h1>
+                <div id="weatherSummary">
+                    <div>
+                        <span>Temp:</span><span id="fishhaven-currenttemp"></span><span>&deg;F</span>
+                    </div>
+                    <div>
+                        <span>Wind Speed:</span><span id="fishhaven-windSpeed"></span><span> MPH</span>
+                    </div>
+                    <div>
+                        <span>Wind Chill:</span><span id="fishhaven-windChill"></span><span>&deg;F</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <article>
+                <h3 class='toptitle'>Get your sun in!</h3>
+                <picture class="foto">
+                    <source
+                        srcset="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\images\picnic-places-near-delhi-cover-picture.jpg"
+                        media="(max-width: 500px)">
+                    <img src="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\weathersite\images\picnic-places-near-delhi-cover-picture.jpg"
+                        alt="Flowers">
+                </picture>
+                <p class="town-article">Getting out in the sun is so vital for your mental health and we understand that here at SunnyMinds!
+                    Thats why we are committed to helping you know when and where you can get out for that extra boost of vitamin D.
+                    Remember that sun alone cant help you, you can also exersise (in the sun or rain!) and see your doctor and therapist if you are experiencing
+                    significant loss in your value in life. But the sun can help at least!</p>
+            </article>
+        <div class="bottom-grid">
+            <section class="contact">
+                <p>Chandler Noble Hatch</p>
+                <p>999-999-9999</p>
+                <p>123 Main St. Anytown, US 99999</p>
+            </section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5736736.43053611!2d-118.63407055322341!3d45.40649952706968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5358ffa885e499e9%3A0xd06b300515f78758!2sIdaho!5e0!3m2!1sen!2sus!4v1553816820528!5m2!1sen!2sus"
+                width="100%" margin="5px" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
-        <div id="low">
-
-        </div>
-        <div class="fish haven">
-            <h1></h1>
-
-
-        </div>
-    </section>
-
-                <div class="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.72628256041!2d-111.91534455822121!3d42.09980531200503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e0!3m2!1sen!2sus!4v1549480032768" width="100%" margin= "5px" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>	
     </main>
     <footer>
-        
-            <section class="contact">
-                Contact information placeholder
-                999.999.9999
-                123 Main St. Anytown, US 99999
-                Google Map
-            </section>
-            <section class="footer-bar">&copy;<span id='copyright-year'></span> | All Rights Reserved | Site Title | <span id="currentdate"></span>
-            </section>
+
+
+        <section class="footer-bar">&copy;<span id='copyright-year'></span> | All Rights Reserved | Site Title | <span
+                id="currentdate"></span>
+        </section>
     </footer>
-    <script src="scripts/windchill.js"></script>
-    <script src = "scripts/currentdate.js"></script>
+    <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/test.js"></script>
+    <script src="scripts/home.js"></script>
 </body>
+
 </html>
