@@ -1,5 +1,4 @@
-{ 
-    "Temples":[  
+[  
     {
     "name": "Rexburg Idaho Temple",
     "location": "750 2nd East Rexburg ID 83440",
@@ -182,5 +181,4 @@
             }
             ]
     }    
-    ]
-}
+]
