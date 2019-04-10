@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Logan Temple</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Temple Inn and Suites</h1>
+            <p></p>
+        </div>
+        <nav>
+            <button onclick="hamburger()">&equiv;</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="/cit230/assignments/final/services.html">Services</a></li>
+                    <ul>
+                        <li><a href="/cit230/assignments/final/missionary.html">Missionary</a></li>
+                        <li><a href="/cit230/assignments/final/reception.html">Reception</a></li>
+                    </ul>
+                <li><a href="/cit230/assignments/final/reservation.html">Reservation</a></li>
+                <li><a href="/cit230/assignments/final/contact.html">Contact</a></li>
+                <li><a href="/cit230/assignments/final/temples.html">Temples</a></li>
+                    <ul>
+                        <li><a href="/cit230/assignments/final/seattle.html">Seattle</a></li>
+                        <li><a href="/cit230/assignments/final/rexburg.html">Rexburg</a></li>
+                        <li><a href="/cit230/assignments/final/logan.html" class="active">Logan</a></li>
+                        <li><a href="/cit230/assignments/final/boston.html">Boston</a></li>
+                    </ul>
+            </ul>
+        </nav>
+    </header>
+    <h1>Logan Utah</h1>
+    <!-- <picture class="foto">
+        <source
+            srcset="cit230\assignments\final\images\logan_temple_ldssmall.jpg"
+            media="(max-width: 500px)">
+        <img src="cit230\assignments\final\images\logan_temple_lds.jpg"
+            alt="The Temple">
+    </picture> -->
+    <div>
+    <picture class="foto">
+        <source
+            srcset="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\final\images\logan_temple_ldssmall.jpg"
+            media="(max-width: 500px)">
+        <img src="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\final\images\logan_temple_lds.jpg"
+            alt="The Temple">
+    </picture>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra metus purus, rutrum tempus tortor lacinia et. Etiam vitae vehicula arcu. Etiam aliquet malesuada sapien, eu commodo felis gravida id. Curabitur mollis elit ut dolor commodo ultricies. Sed justo dolor, bibendum et dui a, tempor laoreet lectus. Sed in lectus viverra, pharetra leo et, venenatis enim. Duis volutpat, tortor quis aliquam sodales, nunc lectus dignissim dolor, ut vehicula dolor lacus in tellus.
+        Sed rhoncus tellus at ex lobortis, mattis vulputate dolor vehicula. Pellentesque consequat, tellus eu auctor vehicula, velit sem sagittis tortor, sed pharetra ante ex quis nisl. Integer a interdum ex, non accumsan ligula. Mauris sapien felis, bibendum vel velit sit amet, blandit volutpat nulla. Morbi ultricies vitae lorem in commodo. Morbi bibendum sem nisi, non pretium purus elementum non. Donec vehicula cursus purus, eu elementum ligula maximus eu. Vivamus eu nisl neque. Curabitur tellus arcu, tristique ac leo gravida, porta ullamcorper felis. Aliquam vehicula lacus suscipit urna blandit, non dictum dolor congue. Aliquam erat volutpat. Nulla accumsan finibus leo. Suspendisse interdum nulla a lorem aliquet commodo. Proin sed velit sed tortor laoreet aliquam non eget justo.</p>
+    </div>
+    <div class="features">
+        <h1>Services</h1>
+        <ul>
+            <li><span id="service1"></span></li>
+            <li><span id="service2"></span></li>
+            <li><span id="service3"></span></li>
+        </ul>
+    </div>
+    <div class="packages">
+        <h1>Package deals!</h1>
+        <ul>
+            <li>Cheap</li>
+
+            <li>Medium</li>
+            <li>Treat Cho' Self</li>
+        </ul>
+    </div>
+    <script type="module" src="json/temples.json"></script>
+    <script src="scripts/loganjson.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>
