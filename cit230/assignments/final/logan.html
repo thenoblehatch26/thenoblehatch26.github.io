@@ -14,30 +14,34 @@
 </head>
 <body>
     <header>
-        <div>
+        <div>    
+            <img src="\cit230\assignments\final\images\bestmoroni.png" alt="moroni">
             <h1>Temple Inn and Suites</h1>
             <p></p>
         </div>
         <nav>
             <button onclick="hamburger()">&equiv;</button>
             <ul id="primaryNav" class="hide">
-                <li><a href="/cit230/assignments/final/services.html">Services</a></li>
-                    <ul>
-                        <li><a href="/cit230/assignments/final/missionary.html">Missionary</a></li>
-                        <li><a href="/cit230/assignments/final/reception.html">Reception</a></li>
-                    </ul>
-                <li><a href="/cit230/assignments/final/reservation.html">Reservation</a></li>
-                <li><a href="/cit230/assignments/final/contact.html">Contact</a></li>
-                <li><a href="/cit230/assignments/final/temples.html">Temples</a></li>
-                    <ul>
-                        <li><a href="/cit230/assignments/final/seattle.html">Seattle</a></li>
-                        <li><a href="/cit230/assignments/final/rexburg.html">Rexburg</a></li>
-                        <li><a href="/cit230/assignments/final/logan.html" class="active">Logan</a></li>
-                        <li><a href="/cit230/assignments/final/boston.html">Boston</a></li>
-                    </ul>
-            </ul>
+                    <li><a href="/cit230/assignments/final/home.html" class="active">Home</a></li>
+                    <li><a href="/cit230/assignments/final/services.html">Services</a><button class="button"onclick="nav()">&equiv;</button></li>
+                        <ul id="submenu" class="hide1">
+                            <li><a href="/cit230/assignments/final/missionary.html">Missionary</a></li>
+                            <li><a href="/cit230/assignments/final/reception.html">Reception</a></li>
+                            <li>----------------------------</li>
+                        </ul>
+                    <li><a href="/cit230/assignments/final/reservation.html">Reservation</a></li>
+                    <li><a href="/cit230/assignments/final/contact.html">Contact</a></li>
+                    <li><a href="/cit230/assignments/final/temples.html">Temples</a><button class="button"onclick="navt()">&equiv;</button></li>
+                        <ul id="submenu1" class="hide2">
+                            <li><a href="/cit230/assignments/final/seattle.html">Seattle</a></li>
+                            <li><a href="/cit230/assignments/final/rexburg.html">Rexburg</a></li>
+                            <li><a href="/cit230/assignments/final/logan.html">Logan</a></li>
+                            <li><a href="/cit230/assignments/final/boston.html">Boston</a></li>
+                            <li></li>
+                        </ul>
+                </ul>
         </nav>
-    </header>
+    </header><div class="therest">
     <h1>Logan Utah</h1>
     <!-- <picture class="foto">
         <source
@@ -49,9 +53,9 @@
     <div>
     <picture class="foto">
         <source
-            srcset="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\final\images\logan_temple_ldssmall.jpg"
+            srcset="\cit230\assignments\final\images\logan_temple_ldssmall.jpg"
             media="(max-width: 500px)">
-        <img src="C:\Users\Admin\Documents\GitHub\thenoblehatch26.github.io\cit230\assignments\final\images\logan_temple_lds.jpg"
+        <img src="\cit230\assignments\final\images\logan_temple_lds.jpg"
             alt="The Temple">
     </picture>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra metus purus, rutrum tempus tortor lacinia et. Etiam vitae vehicula arcu. Etiam aliquet malesuada sapien, eu commodo felis gravida id. Curabitur mollis elit ut dolor commodo ultricies. Sed justo dolor, bibendum et dui a, tempor laoreet lectus. Sed in lectus viverra, pharetra leo et, venenatis enim. Duis volutpat, tortor quis aliquam sodales, nunc lectus dignissim dolor, ut vehicula dolor lacus in tellus.
@@ -137,10 +141,12 @@
                 </ul>
         </ul>
     </div>
-
+    </div>
+    <script src="scripts/navt.js"></script>
+    <script src="scripts/nav.js"></script>
     <script src="scripts/logan.js"></script>
     <script src="scripts/poptable.js"></script>
     <!-- <script src="scripts/loganjson.js"></script> -->
     <script src="scripts/hamburger.js"></script>
 </body>
-</html>
+</html> 

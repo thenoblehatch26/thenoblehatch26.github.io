@@ -1,38 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <div>
+        <head>
+            <meta charset="UTF-8">
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>The Logan Temple</title>
+            <link rel="stylesheet" href="styles/normalize.css">
+            <link rel="stylesheet" href="styles/small.css">
+            <link rel="stylesheet" href="styles/medium.css">
+            <link rel="stylesheet" href="styles/large.css">
+        </head>
+        <body>
+            <header>
+                <div>
+                        <img src="\cit230\assignments\final\images\bestmoroni.png" alt="moroni">
+                    <h1>Temple Inn and Suites</h1>
+                    <p></p>
+                </div>
+                <nav>
+                    <button onclick="hamburger()">&equiv;</button>
+                    <ul id="primaryNav" class="hide">
+                            <li><a href="/cit230/assignments/final/home.html" class="active">Home</a></li>
+                            <li><a href="/cit230/assignments/final/services.html">Services</a><button class="button"onclick="nav()">&equiv;</button></li>
+                                <ul id="submenu" class="hide1">
+                                    <li><a href="/cit230/assignments/final/missionary.html">Missionary</a></li>
+                                    <li><a href="/cit230/assignments/final/reception.html">Reception</a></li>
+                                    <li>----------------------------</li>
+                                </ul>
+                            <li><a href="/cit230/assignments/final/reservation.html">Reservation</a></li>
+                            <li><a href="/cit230/assignments/final/contact.html">Contact</a></li>
+                            <li><a href="/cit230/assignments/final/temples.html">Temples</a><button class="button"onclick="navt()">&equiv;</button></li>
+                                <ul id="submenu1" class="hide2">
+                                    <li><a href="/cit230/assignments/final/seattle.html">Seattle</a></li>
+                                    <li><a href="/cit230/assignments/final/rexburg.html">Rexburg</a></li>
+                                    <li><a href="/cit230/assignments/final/logan.html">Logan</a></li>
+                                    <li><a href="/cit230/assignments/final/boston.html">Boston</a></li>
+                                    <li></li>
+                                </ul>
+                        </ul>
+                </nav>
+            </header><div class="therest">
             <h1></h1>
-            <p></p>
-        </div>
-        <h1></h1>
-        <nav>
-            <button onclick="hamburger()">&equiv;</button>
-            <ul>
-                <li><a href="">Services</a></li>
-                <ul>
-                    <li><a href="">Missionary</a></li>
-                    <li><a href="">Reception</a></li>
-                </ul>
-                <li><a href="">Reservation</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">Temples</a></li>
-                <ul>
-                    <li><a href="">Seattle</a></li>
-                    <li><a href="">Rexburg</a></li>
-                    <li><a href="">Logan</a></li>
-                    <li><a href="">Boston</a></li>
-                </ul>
-            </ul>
-        </nav>
-    </header>
-
-</body>
-</html>
+            <div class="homepage">
+                <img src="\cit230\assignments\final\images\boston_temple_lds_small.jpg">
+                <img src="\cit230\assignments\final\images\logan_temple_ldssmall.jpg">
+                <img src="\cit230\assignments\final\images\seattle-washington-temple-small.jpg">
+                <img src="\cit230\assignments\final\images\rexburg_idaho_temple_small.jpg">
+            </div>
+            <div id="summary">
+                <div class="bostonsumm">
+                    <h3>Activities in Boston</h3>
+                    <p>Description</p>
+                    <p class="calltoaction"><a href="\cit230\assignments\final\boston.html">Visit this temple</a></p>
+                </div>
+                <div class="logansumm">
+                    <h3>Activities in Logan</h3>
+                    <p>Description</p>
+                    <div class="calltoaction"><a href="\cit230\assignments\final\logan.html">Visit this temple</a></div>
+                </div>
+                <div class="seattlesumm">
+                    <h3>Activities in Seattle</h3>
+                    <p>Description</p>
+                    <div class="calltoaction"><a href="\cit230\assignments\final\seattle.html">Visit this temple</a></div>
+                </div>
+                <div class="rexburgsumm">
+                    <h3>Activities in Rexburg</h3>
+                    <p>Description</p>
+                    <div class="calltoaction"><a href="\cit230\assignments\final\rexburg.html">Visit this temple</a></div>
+                </div>
+            </div>
+            </div>
+           <script src="scripts/navt.js"></script>
+           <script src="scripts/nav.js"></script>
+           <script src="scripts/hamburger.js"></script>
+        </body>
+        </html> 

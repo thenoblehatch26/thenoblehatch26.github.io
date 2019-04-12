@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>The Logan Temple</title>
+            <link rel="stylesheet" href="styles/normalize.css">
+            <link rel="stylesheet" href="styles/small.css">
+            <link rel="stylesheet" href="styles/medium.css">
+            <link rel="stylesheet" href="styles/large.css">
+        </head>
+        <body>
+            <header>
+                <div>
+                        <img src="\cit230\assignments\final\images\bestmoroni.png" alt="moroni">
+                    <h1>Temple Inn and Suites</h1>
+                    <p></p>
+                </div>
+                <nav>
+                    <button onclick="hamburger()">&equiv;</button>
+                    <ul id="primaryNav" class="hide">
+                            <li><a href="/cit230/assignments/final/home.html" class="active">Home</a></li>
+                            <li><a href="/cit230/assignments/final/services.html">Services</a><button class="button"onclick="nav()">&equiv;</button></li>
+                                <ul id="submenu" class="hide1">
+                                    <li><a href="/cit230/assignments/final/missionary.html">Missionary</a></li>
+                                    <li><a href="/cit230/assignments/final/reception.html">Reception</a></li>
+                                    <li>----------------------------</li>
+                                </ul>
+                            <li><a href="/cit230/assignments/final/reservation.html">Reservation</a></li>
+                            <li><a href="/cit230/assignments/final/contact.html">Contact</a></li>
+                            <li><a href="/cit230/assignments/final/temples.html">Temples</a><button class="button"onclick="navt()">&equiv;</button></li>
+                                <ul id="submenu1" class="hide2">
+                                    <li><a href="/cit230/assignments/final/seattle.html">Seattle</a></li>
+                                    <li><a href="/cit230/assignments/final/rexburg.html">Rexburg</a></li>
+                                    <li><a href="/cit230/assignments/final/logan.html">Logan</a></li>
+                                    <li><a href="/cit230/assignments/final/boston.html">Boston</a></li>
+                                    <li></li>
+                                </ul>
+                        </ul>
+                </nav>
+            </header><div class="therest">
+            <div id="contacttitle"> 
+                <h2>Our Headquarters</h2>
+                <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4048370284854!2d-77.09772048528721!3d38.98325594948481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1555010409258!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <form id="contactform">
+                <h1>Contact us!</h1>
+                <label for="">Full Name:</label>
+                <input type="text" id="fullName" placeholder="Joe Shmoe">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="User@domain.com" required>
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="(555) 999-333" required>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+                </div>
+                
+
+
+            <script src="scripts/navt.js"></script>
+            <script src="scripts/nav.js"></script>
+            <script src="scripts/logan.js"></script>
+            <script src="scripts/poptable.js"></script>
+            <!-- <script src="scripts/loganjson.js"></script> -->
+            <script src="scripts/hamburger.js"></script>
+        </body>
+        </html> 

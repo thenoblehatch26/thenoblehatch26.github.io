@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Logan Temple</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="\cit230\assignments\final\images\bestmoroni.png" alt="moroni">
+            <h1>Temple Inn and Suites</h1>
+        </div>
+        <nav>
+            <button onclick="hamburger()">&equiv;</button>
+            <ul id="primaryNav" class="hide">
+                    <li><a href="/cit230/assignments/final/home.html" class="active">Home</a></li>
+                    <li><a href="/cit230/assignments/final/services.html">Services</a><button class="button"onclick="nav()">&equiv;</button></li>
+                        <ul id="submenu" class="hide1">
+                            <li><a href="/cit230/assignments/final/missionary.html">Missionary</a></li>
+                            <li><a href="/cit230/assignments/final/reception.html">Reception</a></li>
+                            <li>----------------------------</li>
+                        </ul>
+                    <li><a href="/cit230/assignments/final/reservation.html">Reservation</a></li>
+                    <li><a href="/cit230/assignments/final/contact.html">Contact</a></li>
+                    <li><a href="/cit230/assignments/final/temples.html">Temples</a><button class="button"onclick="navt()">&equiv;</button></li>
+                        <ul id="submenu1" class="hide2">
+                            <li><a href="/cit230/assignments/final/seattle.html">Seattle</a></li>
+                            <li><a href="/cit230/assignments/final/rexburg.html">Rexburg</a></li>
+                            <li><a href="/cit230/assignments/final/logan.html">Logan</a></li>
+                            <li><a href="/cit230/assignments/final/boston.html">Boston</a></li>
+                            <li></li>
+                        </ul>
+                </ul>
+        </nav>
+    </header>
+    <div class="therest">
+            <div id="misstitle">
+                <h1>Contact us!</h1>
+                <p>We will be able to communicate with your mission president and you to get you the best accomadations for your service</p>
+            </div>
+            <form id="missionform"> 
+                <label for="">Full Name:</label>
+                <input type="text" id="fullName" placeholder="Joe Shmoe">    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="User@domain.com" required>
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="(555) 999-333" required> 
+                <label for="">Which Mission are you in?:</label>
+                <input type="text" id="fullName" placeholder="Mission">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <input type="submit" value="Send">
+            </form>
+
+    </div>
+    
+    <script src="scripts/navt.js"></script>
+    <script src="scripts/nav.js"></script>
+</body>
+</html> 

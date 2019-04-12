@@ -15,29 +15,52 @@
 <body>
     <header>
         <div>
-            <h1></h1>
-            <p></p>
+            <img src="\cit230\assignments\final\images\bestmoroni.png" alt="moroni">
+            <h1>Temple Inn and Suites</h1>
         </div>
-        <h1>Logan Utah</h1>
         <nav>
             <button onclick="hamburger()">&equiv;</button>
-            <ul>
-                <li><a href="/cit230/assignments/final/services.html">Services</a></li>
-                    <ul>
-                        <li><a href="/cit230/assignments/final/missionary.html">Missionary</a></li>
-                        <li><a href="/cit230/assignments/final/reception.html" class="active">Reception</a></li>
-                    </ul>
-                <li><a href="/cit230/assignments/final/reservation.html">Reservation</a></li>
-                <li><a href="/cit230/assignments/final/contact.html">Contact</a></li>
-                <li><a href="/cit230/assignments/final/temples.html">Temples</a></li>
-                    <ul>
-                        <li><a href="/cit230/assignments/final/seattle.html">Seattle</a></li>
-                        <li><a href="/cit230/assignments/final/rexburg.html">Rexburg</a></li>
-                        <li><a href="/cit230/assignments/final/logan.html">Logan</a></li>
-                        <li><a href="/cit230/assignments/final/boston.html">Boston</a></li>
-                    </ul>
-            </ul>
+            <ul id="primaryNav" class="hide">
+                    <li><a href="/cit230/assignments/final/home.html" class="active">Home</a></li>
+                    <li><a href="/cit230/assignments/final/services.html">Services</a><button class="button"onclick="nav()">&equiv;</button></li>
+                        <ul id="submenu" class="hide1">
+                            <li><a href="/cit230/assignments/final/missionary.html">Missionary</a></li>
+                            <li><a href="/cit230/assignments/final/reception.html">Reception</a></li>
+                            <li>----------------------------</li>
+                        </ul>
+                    <li><a href="/cit230/assignments/final/reservation.html">Reservation</a></li>
+                    <li><a href="/cit230/assignments/final/contact.html">Contact</a></li>
+                    <li><a href="/cit230/assignments/final/temples.html">Temples</a><button class="button"onclick="navt()">&equiv;</button></li>
+                        <ul id="submenu1" class="hide2">
+                            <li><a href="/cit230/assignments/final/seattle.html">Seattle</a></li>
+                            <li><a href="/cit230/assignments/final/rexburg.html">Rexburg</a></li>
+                            <li><a href="/cit230/assignments/final/logan.html">Logan</a></li>
+                            <li><a href="/cit230/assignments/final/boston.html">Boston</a></li>
+                            <li></li>
+                        </ul>
+                </ul>
         </nav>
-    </header>
+    </header><div class="therest">
+        
+        <h1 id="receptiontitle">Let us help you celebrate your special day!</h1>
+        <div id="receptiongrid">
+            <img src="\cit230\assignments\final\images\bb-1.jpg" alt="reception hall1">
+            <div>
+                <h1>Choose from some of our finest reception halls in our hotels</h1>
+            </div>
+            <div>
+                <h1>With several different decoration styles</h1>
+                <ul>
+                    <li>The same style as your specific temple</li>
+                    <li>Matching your wedding colors</li>
+                    <li>Family History!</li>
+                </ul>
+            </div>
+            <img src="\cit230\assignments\final\images\41-copy.jpg" alt="reception hall2">
+        </div>
+    </div>
+    
+    <script src="scripts/navt.js"></script>
+    <script src="scripts/nav.js"></script>
 </body>
-</html>
+</html> 
